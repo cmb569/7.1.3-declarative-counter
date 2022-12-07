@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 function App() {
+  let [ counter, changeCounter ] = useState(1)
   return (
     <div className="App">
       <header className="App-header">
